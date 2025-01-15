@@ -116,7 +116,7 @@ body {
 
 .card-body #contenedor {
     margin: 20px 0;
-    background: var(--Pale-blue);
+    background: hsl(225, 100%, 99%);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -124,7 +124,6 @@ body {
     justify-content: space-between;
     padding: 20px 20px;
     opacity: 0.8;
-    filter: brightness(109%);
 }
 
 .card-body #contenedor .informacion {
