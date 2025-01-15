@@ -12,6 +12,26 @@
     --font-family: "Red Hat Display", serif;
 }
 
+@media only screen and (width < 375px) {
+
+    .card{
+        width: 35vh !important;
+    }
+
+    .card .card-body {
+        padding: 40px 40px !important;
+    }
+    
+
+    .desktop-img{
+        display: none !important;
+    }
+
+    .mobile-img{
+        display: block !important;
+    }
+}
+
 @media only screen and (width < 400px) {
 
     .card{
