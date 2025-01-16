@@ -20,7 +20,7 @@
     }
 
     .card .card-body {
-        padding: 40px 40px !important;
+        padding: 40px 20px !important;
     }
 
 
@@ -65,7 +65,7 @@
     }
 
     .card .card-body {
-        padding: 40px 40px !important;
+        padding: 35px 20px !important;
     }
 
 
@@ -75,6 +75,26 @@
 
     .mobile-img {
         display: block !important;
+    }
+
+    .card-body #titulo {
+        font-size: 1.3rem !important;
+    }
+
+    .card-body #descripcion {
+        font-size: 1.12rem !important;
+    }
+
+    .card-body #contenedor .informacion #detalles .titulo-contenedor {
+        font-size: 0.9rem !important;
+    }
+
+    .card-body #contenedor .informacion #detalles .contenido-contenedor {
+        font-size: 0.9rem !important;
+    }
+
+    .card-body #contenedor .change a {
+        font-size: 0.9rem !important;
     }
 }
 
