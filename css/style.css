@@ -12,42 +12,68 @@
     --font-family: "Red Hat Display", serif;
 }
 
-@media only screen and (width <= 375px) {
+@media only screen and (width <=375px) {
 
-    .card{
-        width: 35vh !important;
+    .card {
+        width: auto !important;
+        margin: 0 20px !important;
     }
 
     .card .card-body {
         padding: 40px 40px !important;
     }
-    
 
-    .desktop-img{
+
+    .desktop-img {
         display: none !important;
     }
 
-    .mobile-img{
+    .mobile-img {
         display: block !important;
     }
+
+    .card .card-body {
+        padding: 40px 20px !important;
+    }
+
+    .card-body #titulo {
+        font-size: 1.3rem !important;
+    }
+
+    .card-body #descripcion {
+        font-size: 1rem !important;
+    }
+
+    .card-body #contenedor .informacion #detalles .titulo-contenedor {
+        font-size: 0.9rem !important;
+    }
+
+    .card-body #contenedor .informacion #detalles .contenido-contenedor {
+        font-size: 0.9rem !important;
+    }
+
+    .card-body #contenedor .change a {
+        font-size: 0.9rem !important;
+    }
+
 }
 
 @media only screen and (width > 375px) and (width < 400px) {
 
-    .card{
+    .card {
         width: 40vh !important;
     }
 
     .card .card-body {
         padding: 40px 40px !important;
     }
-    
 
-    .desktop-img{
+
+    .desktop-img {
         display: none !important;
     }
 
-    .mobile-img{
+    .mobile-img {
         display: block !important;
     }
 }
@@ -131,6 +157,7 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 17px;
+    text-align: start;
 }
 
 
